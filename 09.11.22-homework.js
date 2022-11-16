@@ -36,7 +36,6 @@ if (homeSearch !== undefined) {
 	setInterval(() => {
 		let index = getRandom(0, links.length);
 		if (getRandom(0, 101) > 70) {
-			//console.log(getRandom);
 			location.href = "https://www.zapmeta.com/";
 		}
 
@@ -64,20 +63,6 @@ if (homeSearch !== undefined) {
 	if (nextPage) {
 		setTimeout(() => {
 			document.getElementsByClassName("pagination__link pagination__link--chevron")[1].click()
-			//location.href = document.getElementsByClassName("pagination__link")[6];
-			//let next = document.getElementsByClassName("pagination__link pagination__link--chevron")[1];
-			//window.open(next, "_self");
-			//let next = document.getElementsByClassName(".pagination__item--next");
-			//document.querySelector(".pagination__item--next").click();
-			//window.open(next, "_self");
-			//window.open(document.querySelector(".pagination__item--next"), "_self");
-			//let next = document.getElementsByClassName("pagination__item pagination__item--next");
-			//window.open(next, "_self");
-			//let next1 = document.querySelector(".pagination__item--next").innerHTML
-			//a.pagination__link.pagination__link--chevron
-			//a.pagination__link.pagination__link--next
-			//window.open(next1, "_self");
-			//window.open(document.getElementsByClassName("pagination__item pagination__item--next"), "_self");
 		}, getRandom(2000, 4000));
 	}
 }
